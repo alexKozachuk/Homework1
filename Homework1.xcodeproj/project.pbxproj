@@ -9,21 +9,23 @@
 /* Begin PBXBuildFile section */
 		D994DD95257AE02C00E460CB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D994DD94257AE02C00E460CB /* AppDelegate.swift */; };
 		D994DD97257AE02C00E460CB /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D994DD96257AE02C00E460CB /* SceneDelegate.swift */; };
-		D994DD99257AE02C00E460CB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D994DD98257AE02C00E460CB /* ViewController.swift */; };
+		D994DD99257AE02C00E460CB /* MainVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D994DD98257AE02C00E460CB /* MainVC.swift */; };
 		D994DD9C257AE02C00E460CB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D994DD9A257AE02C00E460CB /* Main.storyboard */; };
 		D994DD9E257AE02E00E460CB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D994DD9D257AE02E00E460CB /* Assets.xcassets */; };
 		D994DDA1257AE02E00E460CB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D994DD9F257AE02E00E460CB /* LaunchScreen.storyboard */; };
+		D994DDAA257AE0C300E460CB /* MathService.swift in Sources */ = {isa = PBXBuildFile; fileRef = D994DDA9257AE0C300E460CB /* MathService.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		D994DD91257AE02C00E460CB /* Homework1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Homework1.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D994DD94257AE02C00E460CB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D994DD96257AE02C00E460CB /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		D994DD98257AE02C00E460CB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D994DD98257AE02C00E460CB /* MainVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainVC.swift; sourceTree = "<group>"; };
 		D994DD9B257AE02C00E460CB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D994DD9D257AE02E00E460CB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D994DDA0257AE02E00E460CB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D994DDA2257AE02E00E460CB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D994DDA9257AE0C300E460CB /* MathService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MathService.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,11 +60,12 @@
 			children = (
 				D994DD94257AE02C00E460CB /* AppDelegate.swift */,
 				D994DD96257AE02C00E460CB /* SceneDelegate.swift */,
-				D994DD98257AE02C00E460CB /* ViewController.swift */,
+				D994DD98257AE02C00E460CB /* MainVC.swift */,
 				D994DD9A257AE02C00E460CB /* Main.storyboard */,
 				D994DD9D257AE02E00E460CB /* Assets.xcassets */,
 				D994DD9F257AE02E00E460CB /* LaunchScreen.storyboard */,
 				D994DDA2257AE02E00E460CB /* Info.plist */,
+				D994DDA9257AE0C300E460CB /* MathService.swift */,
 			);
 			path = Homework1;
 			sourceTree = "<group>";
@@ -137,9 +140,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D994DD99257AE02C00E460CB /* ViewController.swift in Sources */,
+				D994DD99257AE02C00E460CB /* MainVC.swift in Sources */,
 				D994DD95257AE02C00E460CB /* AppDelegate.swift in Sources */,
 				D994DD97257AE02C00E460CB /* SceneDelegate.swift in Sources */,
+				D994DDAA257AE0C300E460CB /* MathService.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
