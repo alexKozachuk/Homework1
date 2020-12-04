@@ -15,6 +15,8 @@ enum Function: String, CaseIterable {
     case pi = "Знаходження Pi"
 }
 
+// MARK: MainVC
+
 class MainVC: UIViewController {
 
     @IBOutlet weak var tableView: UITableView!
@@ -26,6 +28,8 @@ class MainVC: UIViewController {
 
 }
 
+// MARK: UITableViewDelegate
+
 extension MainVC: UITableViewDelegate {
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         guard let vc = storyboard?.instantiateViewController(identifier: "DetailVC") as? DetailVC else {
@@ -36,6 +40,8 @@ extension MainVC: UITableViewDelegate {
         navigationController?.pushViewController(vc, animated: true)
     }
 }
+
+// MARK: UITableViewDataSource
 
 extension MainVC: UITableViewDataSource {
     

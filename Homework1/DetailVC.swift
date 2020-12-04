@@ -7,6 +7,8 @@
 
 import UIKit
 
+// MARK: DetailVC
+
 class DetailVC: UIViewController {
 
     @IBOutlet weak var textFiled: UITextField!
