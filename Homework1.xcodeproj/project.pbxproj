@@ -14,6 +14,7 @@
 		D994DD9E257AE02E00E460CB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D994DD9D257AE02E00E460CB /* Assets.xcassets */; };
 		D994DDA1257AE02E00E460CB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D994DD9F257AE02E00E460CB /* LaunchScreen.storyboard */; };
 		D994DDAA257AE0C300E460CB /* MathService.swift in Sources */ = {isa = PBXBuildFile; fileRef = D994DDA9257AE0C300E460CB /* MathService.swift */; };
+		D994DDAE257AE65500E460CB /* DetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D994DDAD257AE65500E460CB /* DetailVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		D994DDA0257AE02E00E460CB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D994DDA2257AE02E00E460CB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D994DDA9257AE0C300E460CB /* MathService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MathService.swift; sourceTree = "<group>"; };
+		D994DDAD257AE65500E460CB /* DetailVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +63,7 @@
 				D994DD94257AE02C00E460CB /* AppDelegate.swift */,
 				D994DD96257AE02C00E460CB /* SceneDelegate.swift */,
 				D994DD98257AE02C00E460CB /* MainVC.swift */,
+				D994DDAD257AE65500E460CB /* DetailVC.swift */,
 				D994DD9A257AE02C00E460CB /* Main.storyboard */,
 				D994DD9D257AE02E00E460CB /* Assets.xcassets */,
 				D994DD9F257AE02E00E460CB /* LaunchScreen.storyboard */,
@@ -140,6 +143,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D994DDAE257AE65500E460CB /* DetailVC.swift in Sources */,
 				D994DD99257AE02C00E460CB /* MainVC.swift in Sources */,
 				D994DD95257AE02C00E460CB /* AppDelegate.swift in Sources */,
 				D994DD97257AE02C00E460CB /* SceneDelegate.swift in Sources */,

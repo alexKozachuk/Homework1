@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "2402197C-3C03-4D7D-8D94-D173E653ACB3"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "E2ACBCF3-BB82-4DF0-9E4A-6A140D08A857"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Homework1/DetailVC.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "12"
+            endingLineNumber = "12"
+            landmarkName = "DetailVC"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  uuid = "E2ACBCF3-BB82-4DF0-9E4A-6A140D08A857 - ae3631b95c582bcb"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Homework1.DetailVC.textFiled.getter : Swift.Optional&lt;__C.UITextField&gt;"
+                  moduleName = "Homework1"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/aleksandr/Desktop/Homework1/Homework1/DetailVC.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "12"
+                  endingLineNumber = "12"
+                  offsetFromSymbolStart = "88">
+               </Location>
+               <Location
+                  uuid = "E2ACBCF3-BB82-4DF0-9E4A-6A140D08A857 - 78bc30d2bed0767f"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Homework1.DetailVC.textFiled.setter : Swift.Optional&lt;__C.UITextField&gt;"
+                  moduleName = "Homework1"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/aleksandr/Desktop/Homework1/Homework1/DetailVC.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "12"
+                  endingLineNumber = "12"
+                  offsetFromSymbolStart = "155">
+               </Location>
+               <Location
+                  uuid = "E2ACBCF3-BB82-4DF0-9E4A-6A140D08A857 - 9fe9a449f2992bfc"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Homework1.DetailVC.textFiled.modify : Swift.Optional&lt;__C.UITextField&gt;"
+                  moduleName = "Homework1"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/aleksandr/Desktop/Homework1/Homework1/DetailVC.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "59">
+               </Location>
+               <Location
+                  uuid = "E2ACBCF3-BB82-4DF0-9E4A-6A140D08A857 - 7442cf706532a81e"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Homework1.DetailVC.textFiled.modify : Swift.Optional&lt;__C.UITextField&gt; with unmangled suffix &quot;.resume.0&quot;"
+                  moduleName = "Homework1"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/aleksandr/Desktop/Homework1/Homework1/DetailVC.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "12"
+                  endingLineNumber = "12"
+                  offsetFromSymbolStart = "64">
+               </Location>
+               <Location
+                  uuid = "E2ACBCF3-BB82-4DF0-9E4A-6A140D08A857 - 688f21d0251b9bdb"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Homework1.DetailVC.init(nibName: Swift.Optional&lt;Swift.String&gt;, bundle: Swift.Optional&lt;__C.NSBundle&gt;) -&gt; Homework1.DetailVC"
+                  moduleName = "Homework1"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/aleksandr/Desktop/Homework1/Homework1/DetailVC.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "12"
+                  endingLineNumber = "12"
+                  offsetFromSymbolStart = "228">
+               </Location>
+               <Location
+                  uuid = "E2ACBCF3-BB82-4DF0-9E4A-6A140D08A857 - 31461c2942e3d4a0"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Homework1.DetailVC.init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;Homework1.DetailVC&gt;"
+                  moduleName = "Homework1"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/aleksandr/Desktop/Homework1/Homework1/DetailVC.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "12"
+                  endingLineNumber = "12"
+                  offsetFromSymbolStart = "148">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

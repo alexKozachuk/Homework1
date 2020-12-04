@@ -13,6 +13,7 @@ class MathService {
     private init() {}
     
     func factorialIterate(n: Int) -> Int {
+        if n > 20 { return 0 }
         if n == 0 { return  1 }
         
         var temp = 1
@@ -24,6 +25,7 @@ class MathService {
     }
     
     func factorialRecurtion(n: Int) -> Int {
+        if n > 20 { return 0 }
         if n >= 1 {
             return n * factorialRecurtion(n: n - 1)
         } else {
@@ -32,6 +34,7 @@ class MathService {
     }
     
     func fibonachiIterate(n: Int) -> Int {
+        if n > 92 { return 0 }
         var a = 0
         var b = 1
         var c = 1
@@ -46,6 +49,7 @@ class MathService {
     }
     
     func fibonachiRecurtion(n: Int) -> Int {
+        if n > 40 { return 0 }
         if n <= 1 {
             return n
         } else {
