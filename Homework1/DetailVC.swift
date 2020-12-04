@@ -43,9 +43,9 @@ class DetailVC: UIViewController {
             answer = "\(math.pi(n: number))"
         }
         label.alpha = 0
+        label.text = answer
         UIView.animate(withDuration: 1) { [weak self] in
             self?.label.alpha = 1
-            self?.label.text = answer
         }
         
     }
