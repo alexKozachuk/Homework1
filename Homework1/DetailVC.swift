@@ -40,7 +40,10 @@ class DetailVC: UIViewController {
         case .fibonachi:
             answer = math.fibonachi(n: number).map { String($0) }.joined(separator: ", ")
         case .pi:
-            answer = "\(math.pi(n: number))"
+            var string = String(format: "%.\(number + 1)f", math.pi(n: 1000))
+            string.removeLast()
+            guard let item = string.last else { return }
+            answer = String(item)
         }
         label.alpha = 0
         label.text = answer
