@@ -37,10 +37,8 @@ class DetailVC: UIViewController {
             answer = "\(math.factorialIterate(n: number))"
         case .factorialRecturtion:
             answer = "\(math.factorialRecurtion(n: number))"
-        case .fibonachiIterate:
-            answer = "\(math.fibonachiIterate(n: number))"
-        case .fibonachiRecturtion:
-            answer = "\(math.fibonachiRecurtion(n: number))"
+        case .fibonachi:
+            answer = math.fibonachi(n: number).map { String($0) }.joined(separator: ", ")
         case .pi:
             answer = "\(math.pi(n: number))"
         }

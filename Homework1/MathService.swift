@@ -33,28 +33,21 @@ class MathService {
         }
     }
     
-    func fibonachiIterate(n: Int) -> Int {
-        if n > 92 { return 0 }
+    func fibonachi(n: Int) -> [Int] {
+        if n == 1 { return [1] }
+        var arr: [Int] = [1]
         var a = 0
         var b = 1
         var c = 1
-        if n == 0 { return 0 }
         
         for _ in 2...n {
             c = a + b
             a = b
             b = c
+            arr.append(b)
         }
-        return b
-    }
-    
-    func fibonachiRecurtion(n: Int) -> Int {
-        if n > 40 { return 0 }
-        if n <= 1 {
-            return n
-        } else {
-            return fibonachiRecurtion(n: n - 1) + fibonachiRecurtion(n: n - 2)
-        }
+        
+        return arr
     }
     
     func pi(n: Int) -> Double{

@@ -10,8 +10,7 @@ import UIKit
 enum Function: String, CaseIterable {
     case factorialIterate = "Ітеративний Факторіал"
     case factorialRecturtion = "Рекурсивний Факторіал"
-    case fibonachiIterate = "Ітеративне Фібоначі"
-    case fibonachiRecturtion = "Рекурсивне Фібоначі"
+    case fibonachi = "Фібоначі"
     case pi = "Знаходження Pi"
 }
 
